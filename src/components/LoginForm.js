@@ -15,6 +15,8 @@ function LoginForm() {
   return (
     <div>
       this is the login form
+      <h1>Test</h1>
+
       <form>
           <input type="text" placeholder='Email' name='email' value={inputs.name} onChange={handleChange}/>
           <input type="text" placeholder='Password' name='password' value={inputs.password} onChange={handleChange}/>
