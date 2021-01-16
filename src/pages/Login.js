@@ -1,8 +1,8 @@
 import React, {useState} from 'react'
-import { Nav, LoginForm, SignUpForm } from '../components'
+import { Nav, LoginForm, SignUpForm } from '../components/'
 
 function Login() {
-  const [showLogin, setShowLogin] = useState(true)
+  const [showLogin, setShowLogin] = useState(false)
 
 
   return (
